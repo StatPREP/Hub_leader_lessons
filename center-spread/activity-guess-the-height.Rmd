@@ -1,0 +1,37 @@
+# Activity: Describing what you know and don't know
+
+### March 15, 2019, Danny Kaplan
+
+Here's a statistics riddle:
+
+> A statistician, a politician, and a college student walk into a classroom. How tall is the student?
+
+This question probably seems odd to you. The riddle tells hardly anything about the student, so how are you  to know how tall he or she might be. 
+
+This kind of question is very common in statistics. Or, since silly questions about  height are not common, what I should say is that there are many situations in statistics where you need to give an answer that expresses both *what you know* and *what you don't know*. 
+
+*Give the best answer you can to these questions:*
+
+1. How tall is the student? Make your single, best estimate in the form of a number, either in inches or cm. 
+
+2. How tall is the student? Same question as before, but this time you should write your estimate in the form of *two* numbers in the same units (inches or cm) as your answer to (1).
+
+3. How likely is it that your answer to (1) is right? Express your answer in English words.
+
+4. Suppose you are told how tall the student is. How close would your answer to (1) have to be so that you'd be comfortable saying, "I got it just about right?"
+
+5. How likely is it that your answer to (2) is right? Express your answer in English words.
+
+6. Suppose, as in (4), you are told how tall the student is. How would  you  decide if your answer to (2) was a good one?
+
+## Objective
+
+The purpose of this lesson is
+
+What's a "usual" or "unsurprising" height. 
+
+
+Short,  normal, tall
+
+
+"Probably," "about," "roughly," "more or less," "approximately", "uncertain"

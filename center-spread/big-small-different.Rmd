@@ -1,0 +1,51 @@
+# Big and small
+
+One of the challenges to learning a new discipline is picking up the distinct meaning of words which have a technical meaning in  the discipline different from the everyday meaning. This is especially hard when  the technical meaning is reminiscent of the everyday meaning. In statistics, three particularly troublesome instances of this are the words *normal*, *significant*, and *deviation*.
+
+## Danny Kaplan
+
+### March 17, 2019
+
+This lesson is about familiar, everyday concepts: big, small, different, similar, and so on.
+
+In part I, you'll use your experience and common sense to give some quantitative interpretations of big and small in three different contexts: adult human height, speed on a highway, and hourly wage.
+
+In part II, you'll describe these same contexts using statistical terms -- prediction interval and prediction level. Then you'll apply those statistical terms to new contexts with which you probably have little acquaintance. You'll see how using the statistical terms and data allow you quickly to gain some understanding and ability to work with unfamiliar variables.
+
+
+## Part I: Height, speed, and wage
+
+Chances are you are very familiar with human heights. You're also probably familiar with highway driving speeds. And you know something about working people's wages, even if that's not something you can see as well as another person's height or the speed of a vehicle overtaking you on the highway.
+
+The exercise here is to translate some everyday concepts into quantitative terms. How tall should a person be in order for the word "tall" to apply? How slow should a car be going on the highway to earn the description "slow?" What level of hourly wage merits being called "really well paying?"
+
+There's a lot of knowledge that you bring to even these simple questions. The meaning of "well paying" probably depends on  whether the person is forced to work a night shift or how hard the work is. A highway speed that's appropriate for bad weather is slow for driving under good conditions. You're sense of what's tall will be different depending on whether you are watching a basketball team  warm up before a game or attending the annual reunion of retired horse-race jockeys.
+
+For this exercise, try to ignore all of the factors that might account for height or speed or wage. For instance, in quantifying "slow," don't pay attention to whether the car is a rusted-out 1982 sub-sub compact or a 2019 Tesla. In quantifying "short," don't compare  them  to the person's parents or siblings. Instead, imagine that you are being handed a slip of paper with just the person's height  and no other information at all. That's the only basis you'll have for deciding whether  that value is big or small or whatever.
+
+The slip-of-paper game might seem silly. Why ignore so much other possible information? The reason is that in learning statistics, it can help to get good at the no-other-information problem before tackling the more  interesting problems where there is explanatory information. Think of this like practice, for instance, practicing three-point shots. Of course three-point shots only count when your playing an actual game, but it's worthwhile to practice so that you can play the game better when the  time comes.
+
+It's worth pointing out an important consequence of not having any explanatory information. You won't be able to answer questions like "tall" in terms of "tall enough to ...." You won't, for instance, know the highway speed limit in order to define "fast." Similarly, you won't know the number of people who the wage-earner is supporting in judging whether the hourly wage is high or low.
+
+The only information that you'll have is a large collection of slips of paper ....  the recorded values of the quantity.
+
+Big
+Small
+Similar
+Dissimilar
+
+give numerical values to quantify familiar ways of describing 
+
+EXERCISE  FOR SDS: Biased sampling of speed when observing how fast people go. "It sometimes seems like just about  everyone  is crazy. Some drivers go crazy slow and  block traffic. Other's go crazy  fast. There are a lot of such drivers."
+
+
+Not so tall for a  basketball player
+
+Surprising, unsurprising
+
+## Part II: Prediction and description
+
+
+## Another lesson: Prediction  intervals, mean,  and standard deviation
+
+If the distribution is normal,  just take the center and and one-quarter the overall  width of the 95% level.  The center is the mean. The one-quarter width is the standard deviation.

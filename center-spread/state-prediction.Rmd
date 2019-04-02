@@ -1,0 +1,7 @@
+# Stating a prediction
+
+A central task in statistics is *prediction*. Part of the process of making a prediction is to figure out what's what: to assemble your experience, knowledge, judgment, data, etc. to conclude what outcomes are likely. In the end, you need to state your prediction. Statistics makes  use of special tools, displays, and vocabulary to do this. This lesson is about some of the important vocabulary in stating a prediction.
+
+People who are new to prediction often think that the point is to state the most likely outcome, for instance: it won't rain today; the Yankees will win the baseball game; today's high temperature will be 68°F; or the economy will grow by 2.5% this year. There are good reasons, however, 
+
+Everyday English offers many words 

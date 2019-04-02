@@ -1,0 +1,45 @@
+# Introduction to the normal distribution
+
+
+## What the app should look like?
+
+* Name: "From common to rare" 
+
+* Have the basic graphic as the focal point.
+    * Overlay the normal distribution
+    * Overlay other distributions????
+* Add a second (normal) distribution with parameters controlled by the user.
+* Add a measurement tool
+
+* Sliders for defining the "categories"
+    * What to call the categories? Common, uncommon, rare
+        - one sd below, two sd below, ...
+        - with one sd: routine, ordinary, usual, likely
+        - within two sd: common, typical (so that 95% is typical), expected, garden-variety, "normal"
+        - outside two but within three  sd: uncommon,  infrequent,  unusual, remarkable
+        - outside three: rare,  "abnormal"
+        - [leave out w/in 1 sd], common, uncommon, rare
+        - likely, unlikely, highly  unlikely / rare / scarce / 
+    * High and low: young/old, big/small, left/right, low/high -- maybe a selector to choose the appropriate word for the context.
+
+* Tabular display  of probability in each category.
+
+
+
+## Student background
+
+* Understand different format for graph: density versus value, as opposed to response versus explanatory or violin plot.
+
+## Pitfalls
+
+"Relative frequency" versus the overly specific "probability density". Do you need units on the y-axis.
+
+## Pushing the envelope / Advancing the field 
+
+* Inflection points. Forget about it. You aren't teaching a calculus course, so the zeros of the second derivative are not going to be informative to students. And never comes up ever again in statistics. 
+
+##  Active classroom
+
+* Refer to the  "warm-up before the lesson": Ask students to think about the word "normal" means outside the statistics class.
+
+* Sticky note. Right down the oldest age at which they'd call a mother "young" (etc) -- get the students' various opinions out there in a way that's visible to the students.
