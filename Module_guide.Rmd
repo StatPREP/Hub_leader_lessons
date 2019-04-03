@@ -1,0 +1,53 @@
+# StatPREP Lesson Modules
+
+```{r include = FALSE}
+library(littleapp2)
+module_format_string <- function(base_name) {
+  glue::glue("[web format](Modules/{base_name}.html) : [pdf format](Modules/{base_name}.pdf) : [word format](Modules/{base_name}.docx) : [Rmd format](Modules/{base_name}.Rmd)")
+}
+```
+
+## Point Plot
+
+```{r echo = FALSE}
+point_plot_app <- get_app_info("point_plot")
+jitter_app <- get_app_info("jitter")
+```
+
+App: [`r point_plot_app$name`](`r point_plot_app$url`)
+
+File: `r module_format_string("point_plot")`
+
+Introduces basics of a point plot: that each row in the data corresponds to one dot in the point plot.
+
+
+## Variable types
+
+App: [`r point_plot_app$name`](`r point_plot_app$url`)
+
+Baby weight versus gestation: Why the vertical stripes in gestation? How does jittering gestation change the graph? 
+
+## Jittering
+
+App: [`r jitter_app$name`](`r jitter_app$url`)
+
+## Describing spread
+
+Range. Use measuring stick
+
+## Response and explanatory variables
+
+## Cases, rows, and the unit of observation
+
+## Relative density
+
+## Density in two variables. 
+
+Look at baby weight versus gestation, and notice a second tail to the cloud at about 30 weeks gestation and 3000 grams. Is there a gap between this tail and the upward-sloping tail. Can you think of an explanation of this second tail in terms of errors in the measurement of the length of gestation. What might lead to such a mistake? How large would it typically be?
+
+## Measuring spread
+
+Standard deviation vs range
+
+
+## "Explaining" the response variable

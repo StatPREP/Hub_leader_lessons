@@ -1,0 +1,13 @@
+# Data and Point Plots
+
+```{r include = FALSE}
+SDSdata::sds_setup()
+library(DT)
+```
+
+Data can be many things, but one of the most common formats is a data frame, a kind of spreadsheet of rows and columns. We'll work with the data frame `Births_2014`, which is based on data  published by the US Centers for Disease Control. `Births_2014` has 100,000 rows. Each row reports a birth in the US in 2014. There are dozens of variables, a few of which are shown below.
+
+```{r echo = FALSE}
+sds_table(sample_n(Births_2014, size = 10) %>%
+               select(sex, baby_wt, gestation, delivery, age_mother, wic), nrows = 100000)
+```

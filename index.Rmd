@@ -31,6 +31,20 @@ Each of the lessons contains a number of components:
 
 The Little Apps can be used with or without the lessons. The Apps are designed to use data to present broad statistical concepts, including descriptive statistics, modeling, statistical inference, and hypothesis tests. The interactive format allows students to explore many data sets and many variables within each data set. The data have been selected from published sources and provide many real settings for informative statistical investigation. The Apps allow students to work with multiple variables and generally provide facilities for working with covariates. 
 
+## The normal distribution
+
+## Center and spread
+
+
+## The t-test
+
+## Linear regression
+
+1. Steps for regression
+2. Prediction using regression -- covering residuals as well as the model values.
+3. Inference on regression -- many trials 
+4. Interpretting statistical reports
+
 
 
 
