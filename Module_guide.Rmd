@@ -12,6 +12,7 @@ module_format_string <- function(base_name) {
 ```{r echo = FALSE}
 point_plot_app <- get_app_info("point_plot")
 jitter_app <- get_app_info("jitter")
+center_app <- get_app_info("spread")
 ```
 
 App: [`r point_plot_app$name`](`r point_plot_app$url`)
@@ -25,15 +26,32 @@ Introduces basics of a point plot: that each row in the data corresponds to one 
 
 App: [`r point_plot_app$name`](`r point_plot_app$url`)
 
-Baby weight versus gestation: Why the vertical stripes in gestation? How does jittering gestation change the graph? 
+File: `r module_format_string("point_plot")`
+
+Introduces the distinction between quantitative and categorical variables through their very different appearances in a point plot. Provides some vocabularly, e.g. *levels* of a categorical variable, *ordinal*, the *interval*  from max to min of a quantitative variable, the *spread* of a quantitative variable.
 
 ## Jittering
 
 App: [`r jitter_app$name`](`r jitter_app$url`)
 
-## Describing spread
+## Describing spread with a 95% interval
 
+App: [`r center_app$name`](`r center_app$url`)
+
+File: `r module_format_string("summary_interval")`
+
+
+## The standard deviation
+
+App: [`r center_app$name`](`r center_app$url`)
+
+File: `r module_format_string("SD_and_summary_interval")`
+
+
+## next
 Range. Use measuring stick
+
+Baby weight versus plurality, covar sex
 
 ## Response and explanatory variables
 
@@ -49,7 +67,16 @@ Look at baby weight versus gestation, and notice a second tail to the cloud at a
 
 Standard deviation vs range
 
+## Relationships
+
+mother and fathers age versus mother and fathers weight: which has a closer relationship?
+
+
 
 ## "Explaining" the response variable
 
 mother and father's age in Births_2015
+
+## Inference: mean or median? range or standard deviation.
+
+Use the bootstrapping app
