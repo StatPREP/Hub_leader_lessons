@@ -13,6 +13,7 @@ module_format_string <- function(base_name) {
 point_plot_app <- get_app_info("point_plot")
 jitter_app <- get_app_info("jitter")
 center_app <- get_app_info("spread")
+t_test_app <- get_app_info("t_test")
 ```
 
 App: [`r point_plot_app$name`](`r point_plot_app$url`)
@@ -56,6 +57,32 @@ Baby weight versus plurality, covar sex
 ## Response and explanatory variables
 
 ## Cases, rows, and the unit of observation
+
+## Comparing two means (Part I)
+
+App: [`r t_test_app$name`](`r t_test_app$url`)
+
+File: `r module_format_string("Comparing-two-groups")`
+
+
+Looking at sampling variation with new samples.
+
+## Comparing two means  (Part II)
+
+App: [`r t_test_app$name`](`r t_test_app$url`)
+
+File: `r module_format_string("Comparing-confidence-intervals")`
+
+
+Comparing the two confidence intervals
+
+## Comparing two  means  (Part III)
+
+App: [`r t_test_app$name`](`r t_test_app$url`)
+
+File: `r module_format_string("Two-sample-t-test")`
+
+Using the t-statistic
 
 ## Relative density
 

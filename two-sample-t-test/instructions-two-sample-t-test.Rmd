@@ -126,7 +126,12 @@ At this point, the traditional approach used within your curriculum can be linke
 
 ## Creating an active classroom
 
-WE WOULD NEED TO Describe some of the ways that you can structure this to be different from a lecture style. 
+GENERALLY, ask students to explore to find variables that show a difference at p < 0.05.
+
+Ask students to explore to find variables that produce as low a p-value as they can. Compare the results of one group to another.
+
+See Carol's tasks 3 and 4 for wording.
+
 
 PURPOSE IS TO help people who have very little experience in a classroom setting. 
 
