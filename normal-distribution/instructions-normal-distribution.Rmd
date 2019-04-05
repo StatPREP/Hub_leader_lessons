@@ -42,4 +42,9 @@
 
 * Refer to the  "warm-up before the lesson": Ask students to think about the word "normal" means outside the statistics class.
 
+* What's a normal BMI?
+    - WHO definitions
+    - Does the range 20-25  contain most people?
+    - How big a range to contain 95% of people?
+
 * Sticky note. Right down the oldest age at which they'd call a mother "young" (etc) -- get the students' various opinions out there in a way that's visible to the students.

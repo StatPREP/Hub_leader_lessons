@@ -1,0 +1,62 @@
+# Common shapes of distributions
+
+```{r include = FALSE}
+SDSdata::sds_setup()
+library(littleapp2)
+library(DT)
+rare_app <- get_app_info("rare")
+```
+
+## Orientation
+
+As you've probably figured out already, the columns of data frames are called *variables* because the values in the column are not all the same, that is, they vary.
+
+In the early 1800s, it was discovered that many different variables have a pattern in common: the most common values are near the mean and values become less common the further they are from the mean. Not all variables have this pattern, but many do and so the pattern came to be called the *normal distribution*.
+
+In this lesson, your going to look at several different variables and compare them to the normal distribution. Based on this comparison, you'll be able to choose appropriate descriptive words for the distribution: long-tailed, bi-modal, right- or left-skew, truncated, flat, normal.
+
+
+BMI truncated and right-skew
+
+## Activity
+
+Open up the [rare-and-common](`r rare_app$url`) Little App.  Set the response variable to `height_adults` and leave the explanatory variable at `.none.`. 
+
+1. The graphic shows a traditional blot of the distribution of the response variable, called a *density plot*. If you're familiar with a histogram, you might like to think about a *density plot* as a kind of smoothed histogram without the jagged, abrupt changes from bar to var.
+
+    * There are sliders in the app to let you define numerically what range of values are common, uncommon, or rare. We won't need these for this lesson, so arrange for the "common" slider to run the full span of the data. 
+    
+2. Check the control box to overlay a theoretical normal distribution. The distribution will be shown as a white, transluscent, bell-shaped region. The location and width of a normal distribution are described by the mean and standard deviation. In picking the particular normal distribution to overlay, the mean and standard deviation have been set to those of the response variable.
+
+    * Compare the theoretical distribution to the actual distribution. You'll see that the actual values of height occur less frequently near the center than they would be for a theoretical normal distribution. The tails, both right and left, line up pretty well with the theoretical normal distribution. 
+    * What ranges of height occur more frequently in the actual heights than in the theoretical distribution? 
+
+3. Set the explanatory variable to `sex`.
+
+    * Compare the theoretical normal distribution for women to the actual distribution. Are they matched better than in step (2) when there was no explanatory variable? How about for men?
+
+4. Several variables are listed below along with a description of the shape of the distribution.
+    - diastolic blood pressure is slightly left skew
+    - system blood pressure is slightly right skew
+    - age is flat and truncated to the left
+    - testosterone is bi-modal. 
+    - bmi_adults is right skew, truncated to the left.
+    
+    * Look at each of these variables and figure out what differences between the theoretical normal distribution and the actual data correspond to the various labels.
+    * Use `sex` as an explanatory variable for each of the variables. Are there any variables where the distribution for the individual sexes has a different description than the distribution without an explanatory variable.
+    
+5. Look through the various data sets to find variables that are a good match to the normal distribution.
+
+    * Comment on whether most variables have a "normal" shape.
+
+
+MOVE THIS TO THE RARE AND COMMON lesson.
+
+
+define what range of values is "common", what "uncommon", and what range is "rare." Set these as you think best. For instance, rare might be "extremely tall," uncommon might be "very tall," and similarly for extremely short and very short. Define these as makes sense to you.
+
+
+
+----------------------
+
+Version 0.1, `r Sys.Date()`, Thomas Kinzeler and Danny Kaplan
