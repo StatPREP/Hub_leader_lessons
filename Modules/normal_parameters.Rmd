@@ -1,4 +1,4 @@
-# Common shapes of distributions
+# Parameters of the normal distribution
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
@@ -9,14 +9,19 @@ rare_app <- get_app_info("rare")
 
 ## Orientation
 
-As you've probably figured out already, the columns of data frames are called *variables* because the values in the column are not all the same, that is, they vary.
+The bell-shaped distribution is often a good description of the distribution  of a variable, so often that it's called the "normal" distribution. 
 
-In the early 1800s, it was discovered that many different variables have a pattern in common: the most common values are near the mean and values become less common the further they are from the mean. Not all variables have this pattern, but many do and so the pattern came to be called the *normal distribution*.
+Actually, there is not just one normal distribution but a whole family of  them, all of which have the characteristic bell shape. To identify an individual member of this bell family, two numbers suffice: 
 
-In this lesson, your going to look at several different variables and compare them to the normal distribution. Based on this comparison, you'll be able to choose appropriate descriptive words for the distribution: long-tailed, bi-modal, right- or left-skew, truncated, flat, normal.
+* the mean: the location of the peak of the bell
+* the standard deviation: the width of the bell
 
+What's potentially confusing here is that you may know about the mean in terms of a calculation you do on a variable: add up the n values and divide by  n.  Similarly, the standard deviation is such a calculation. Amazingly enough, the numbers you get from these calculations identify the bell-shaped distribution that's the best match to the distribution of the variable. And if the variable has a bell-like distibution itself, you'll see that the distribution of the variable is often close to an exact match to the normal curve itself.
 
-BMI truncated and right-skew
+One consequence of this is that people often can make a pretty good estimate of the mean and standard deviation of a variable just by looking at its distribution, say with a histogram or a violin plot. 
+
+This lesson is about learning to eyeball the mean and standard deviation from a display of the distribution. Reasons to do this include having a better understanding of the mean and standard deviation and, importantly, being able to double-check calculations in order to avoid blunders. Even with a computer, it's easy to make mistakes like reading the wrong number from a table of calculations. 
+
 
 ## Activity
 

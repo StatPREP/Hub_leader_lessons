@@ -44,6 +44,12 @@ File: `r module_format_string("distribution-shapes")`
 
 Where terms for describing such as "skew," "bi-modal," "flat," and "normal" are introduced by reference to the difference of the actual variable from a theoretical normal distribution.
 
+## Parameters of the normal distribution
+
+App: [`r center_app$name`](`r center_app$url`)
+
+File: `r module_format_string("normal_parameters")`
+
 ## Describing spread with a 95% interval
 
 App: [`r center_app$name`](`r center_app$url`)
