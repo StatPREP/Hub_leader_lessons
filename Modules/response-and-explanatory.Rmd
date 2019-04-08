@@ -106,7 +106,7 @@ These variables are found in the data available through the Little App. For simp
     - Income and `home_type`
     
 * `diamonds`
-    - The price of a diamond and its weight in carets.
+    - The price of a diamond and its weight in carats.
     - The weight of a diamond and its clarity.
 
 

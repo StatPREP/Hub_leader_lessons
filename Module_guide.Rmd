@@ -1,4 +1,9 @@
-# StatPREP Lesson Modules
+---
+title: "StatPREP Lesson Modules"
+output: 
+  html_document:
+    theme: yeti
+---
 
 ```{r include = FALSE}
 library(littleapp2)
@@ -22,7 +27,6 @@ App: [`r point_plot_app$name`](`r point_plot_app$url`)
 File: `r module_format_string("point_plot")`
 
 Introduces basics of a point plot: that each row in the data corresponds to one dot in the point plot.
-
 
 ## Variable types
 
@@ -57,6 +61,7 @@ App: [`r center_app$name`](`r center_app$url`)
 File: `r module_format_string("summary_interval")`
 
 
+
 ## The standard deviation
 
 App: [`r center_app$name`](`r center_app$url`)
@@ -73,33 +78,39 @@ Using the z-score to express concepts of "common" and "rare."
 
 ## Response and explanatory variables
 
+App: Several. Links are in the lesson.
 
+File: `r module_format_string("response-and-explanatory")`
 
-## Comparing two means (Part I)
+Reasons to identify one variable as the response and another as the explanatory.
 
+## Comparing means --  Part I
+ 
 App: [`r t_test_app$name`](`r t_test_app$url`)
 
-File: `r module_format_string("Comparing-two-groups")`
+File: `r module_format_string("Two-sample-t-test")`
 
 
 Looking at sampling variation with new samples.
 
-## Comparing two means  (Part II)
+## Comparing means --  Part II
 
 App: [`r t_test_app$name`](`r t_test_app$url`)
 
-File: `r module_format_string("Comparing-confidence-intervals")`
+File: `r module_format_string("Two-sample-t-test")`
 
 
 Comparing the two confidence intervals
 
-## Comparing two  means  (Part III)
+## Comparing means --  Part III
 
 App: [`r t_test_app$name`](`r t_test_app$url`)
 
 File: `r module_format_string("Two-sample-t-test")`
 
 Using the t-statistic
+
+
 
 ## Relative density
 
@@ -127,3 +138,5 @@ mother and father's age in Births_2015
 ## Inference: mean or median? range or standard deviation.
 
 Use the bootstrapping app
+
+
