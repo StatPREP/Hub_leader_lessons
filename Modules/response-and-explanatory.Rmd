@@ -38,8 +38,7 @@ jitter_app <- get_app_info("jitter")
 LR <- get_app_info("linear_regression") 
 center_app <- get_app_info("spread")
 TT <- get_app_info("t_test")
-PR <- list(name = "proportions", url = "missing")
-# PR <-    get_app_info("proportions")
+PR <-    get_app_info("proportions")
 
 rare_app <- get_app_info("rare")
 ```
