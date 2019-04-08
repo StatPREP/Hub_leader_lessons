@@ -54,3 +54,13 @@
 * What's a normal height?
 
 * Sticky note. Right down the oldest age at which they'd call a mother "young" (etc) -- get the students' various opinions out there in a way that's visible to the students.
+
+## Assessment
+
+Show distributions of variables. For each:
+
+* Ask whether the distribution is a close match to the normal distribution. 
+* If not, use an appropriate word description (e.g. left-skew) for the distribution.
+* If so, estimate the mean and standard deviation from the graph.
+
+

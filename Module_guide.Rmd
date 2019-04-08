@@ -63,15 +63,17 @@ App: [`r center_app$name`](`r center_app$url`)
 
 File: `r module_format_string("SD_and_summary_interval")`
 
+## Common, rare, standard deviation and z-score
 
-## next
-Range. Use measuring stick
+App: [`r rare_app$name`](`r rare_app$url`)
 
-Baby weight versus plurality, covar sex
+File: `r module_format_string("commmon-and-rare")`
+
+Using the z-score to express concepts of "common" and "rare."
 
 ## Response and explanatory variables
 
-## Cases, rows, and the unit of observation
+
 
 ## Comparing two means (Part I)
 
@@ -113,6 +115,9 @@ Standard deviation vs range
 
 mother and fathers age versus mother and fathers weight: which has a closer relationship?
 
+
+
+## Cases, rows, and the unit of observation
 
 
 ## "Explaining" the response variable
