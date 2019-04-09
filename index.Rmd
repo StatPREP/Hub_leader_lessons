@@ -1,17 +1,31 @@
-# Lessons for Stat 101
+---
+title: "Topics for Stat 101"
+output: 
+  html_document:
+    theme: readable
+---
 
 *Stat 101* is one name for the conventional introductory statistics course. This site contains lessons for teaching topics generally found in Stat 101, but rooting them in real data. 
 
-These *Lessons for Stat 101* generally involve computing which is provided entirely through mouse-driven, web-based "Little Apps". Using these Little Apps requires an ordinary web browser and nothing more.
+The topics currently in the collection are
 
-The lessons here cover these topics:
-
-#. the normal distribution
+#. data and variables *not yet*
 #. center and spread
+#. proportions *not yet*
 #. the t-test
+#. the normal distribution
 #. linear regression
 
-Each of the lessons contains a number of components:
+```{r include = FALSE}
+library(littleapp2)
+lesson_format_string <- function(base_name) {
+  glue::glue("Formats: [web](Lessons/{base_name}.html) : [pdf](Lessons/{base_name}.pdf) : [word](Lessons/{base_name}.docx) : [Rmd](Lessons/{base_name}.Rmd)")
+}
+```
+
+These *Topics for Stat 101* generally involve computing which is provided entirely through mouse-driven, web-based "Little Apps". Using these Little Apps requires an ordinary web browser and nothing more.
+
+Each of the topics contains a number of components:
 
 1. Instructor facing
     - A brief orientation to the statistical method.
@@ -20,7 +34,7 @@ Each of the lessons contains a number of components:
     - A detailed statement of learning objectives written with an eye to assessment of whether those objectives have been met.
     - The background needed by students to undertake each lesson.
     - Tips on using the lesson to create an active classroom.
-    - Items that can be used for assessment.
+    - Items that can be used for assessment. (NA)
     - A "pushing the envelope" section to help instructors who want deeper insight into the statistical methods, including a description in which the traditional topics have become obsolete or no longer reflect good statistical practice.
     
 
@@ -31,22 +45,79 @@ Each of the lessons contains a number of components:
 
 The Little Apps can be used with or without the lessons. The Apps are designed to use data to present broad statistical concepts, including descriptive statistics, modeling, statistical inference, and hypothesis tests. The interactive format allows students to explore many data sets and many variables within each data set. The data have been selected from published sources and provide many real settings for informative statistical investigation. The Apps allow students to work with multiple variables and generally provide facilities for working with covariates. 
 
-## The normal distribution
+
+## Data and variables 
+
+[Instructor guide](???) Not yet available
+
+Applicable lessons:
+
+#. Point plots. `r lesson_format_string("point-plot")`
+#. Variable types. `r lesson_format_string("variable-types")`
+#. Variables and the unit of observation `r lesson_format_string("variables-and-units")`
+#. Response and explanatory variables`r lesson_format_string("response-and-explanatory")`
+
 
 ## Center and spread
 
+[Instructor guide](center-spread/instructions-center-spread.Rmd)
 
-## The t-test
+Applicable lessons:
+
+#. Link to Joe Roith's lesson
+#. Summary intervals. `r lesson_format_string("summary-interval")`
+#. Shapes of distributions. `r lesson_format_string("distribution-shapes")`
+#. Standard deviation and the summary interval. `r lesson_format_string("sd_and_summary_interval")`
+
+
+
+
+## Proportions *not yet*
+
+[Instructor guide]()
+
+Applicable lessons:
+
+#. Not yet available
+
+Note, will be based on proportions app.
+
+## t-test
+
+[Instructor guide](two-sample-t-test/instructions-two-sample-t-test.Rmd)
+
+Applicable lessons:
+
+#. Comparing two groups. `r lesson_format_string("comparing-two-groups")`
+#. Comparing confidence intervals. `r lesson_format_string("comparing-confidence-intervals")`
+#. Two-sample t-test. `r lesson_format_string("two-sample-t-test")`
+
+## Normal distribution
+
+[Instructor guide](normal-distribution/instructions-normal-distribution.Rmd)
+
+Applicable lessons:
+
+
+#. Normal parameters. `r lesson_format_string("normal-parameters")`
+#. Common and rare. `r lesson_format_string("common-and-rare")`
+#. Distribution shapes. `r lesson_format_string("distribution-shapes")`
 
 ## Linear regression
 
-1. Steps for regression
-2. Prediction using regression -- covering residuals as well as the model values.
-3. Inference on regression -- many trials 
-4. Interpretting statistical reports
+[Instructor guide](linear-regression/instructions-linear-regression.Rmd)
 
+Applicable lessons:
 
+#. Describing linear relationships. `r lesson_format_string("relationship-patterns")`
+#. How much variation is accounted for? `r lesson_format_string("how-much-is-explained")`
 
+## Modeling 
+
+[Instructor guide]() not yet available
+
+#. Response and explanatory variables. `r lesson_format_string("response-and-explanatory")`
+#. How much variation is accounted for. `r lesson_format_string("how-much-is-explained")`
 
 
 
@@ -72,4 +143,5 @@ The Little Apps can be used with or without the lessons. The Apps are designed t
 - Helen Burn
 - Carol Howald
 - Joe Roith
+- Thomas Kinzeler
 - Danny Kaplan is the series editor and the author of the Little Apps.

@@ -1,14 +1,14 @@
 ---
-title: "StatPREP Lesson Modules"
+title: "StatPREP Lesson Lessons"
 output: 
   html_document:
-    theme: yeti
+    theme: readable
 ---
 
 ```{r include = FALSE}
 library(littleapp2)
 module_format_string <- function(base_name) {
-  glue::glue("[web format](Modules/{base_name}.html) : [pdf format](Modules/{base_name}.pdf) : [word format](Modules/{base_name}.docx) : [Rmd format](Modules/{base_name}.Rmd)")
+  glue::glue("[web format](Lessons/{base_name}.html) : [pdf format](Lessons/{base_name}.pdf) : [word format](Lessons/{base_name}.docx) : [Rmd format](Lessons/{base_name}.Rmd)")
 }
 ```
 
@@ -20,6 +20,7 @@ jitter_app <- get_app_info("jitter")
 center_app <- get_app_info("spread")
 t_test_app <- get_app_info("t_test")
 rare_app <- get_app_info("rare")
+regression_app <- get_app_info("linear")
 ```
 
 App: [`r point_plot_app$name`](`r point_plot_app$url`)
@@ -36,9 +37,21 @@ File: `r module_format_string("point_plot")`
 
 Introduces the distinction between quantitative and categorical variables through their very different appearances in a point plot. Provides some vocabularly, e.g. *levels* of a categorical variable, *ordinal*, the *interval*  from max to min of a quantitative variable, the *spread* of a quantitative variable.
 
+## Variables and the unit of observation
+
+App: [`r point_plot_app$name`](`r point_plot_app$url`)
+
+File: `r module_format_string("variables-and-units")`
+
+Gets students to think about what is the unit of observation in each data set and how to look up the meaning of each variable.
+
 ## Jittering
 
 App: [`r jitter_app$name`](`r jitter_app$url`)
+
+This is a simple app that helps introduce jittering by allowing the user to control the amount of jittering on each axis, as well as the transparency.
+
+Question in draft: Do we need a lesson document for this?
 
 ## Common shapes of distributions
 
@@ -59,8 +72,6 @@ File: `r module_format_string("normal_parameters")`
 App: [`r center_app$name`](`r center_app$url`)
 
 File: `r module_format_string("summary_interval")`
-
-
 
 ## The standard deviation
 
@@ -88,7 +99,7 @@ Reasons to identify one variable as the response and another as the explanatory.
  
 App: [`r t_test_app$name`](`r t_test_app$url`)
 
-File: `r module_format_string("Two-sample-t-test")`
+File: `r module_format_string("comparing-two-groups")`
 
 
 Looking at sampling variation with new samples.
@@ -97,7 +108,7 @@ Looking at sampling variation with new samples.
 
 App: [`r t_test_app$name`](`r t_test_app$url`)
 
-File: `r module_format_string("Two-sample-t-test")`
+File: `r module_format_string("comparing-confidence-intervals")`
 
 
 Comparing the two confidence intervals
@@ -110,30 +121,47 @@ File: `r module_format_string("Two-sample-t-test")`
 
 Using the t-statistic
 
+## Describing relationship patterns in words and numbers
 
+App: [`r regression_app$name`](`r regression_app$url`)
 
-## Relative density
+File: `r module_format_string("relationship-patterns")`
+
+How to summarize the pattern indicated by a regression line.
+
+## How much variation is explained
+
+App: [`r regression_app$name`](`r regression_app$url`)
+
+File: `r module_format_string("how-much-is-explained")`
+
+Introduces the concept of quantifying how much of one variable is accounted for (or "explained") by another.
+
+AND FIGURE OUT WHERE YOU WERE GOING WITH "lesson-2.Rmd"
+
+## Covariates
+
+This will be about how introducing a covarate can change the estimate of the effect size.
+
+## Inference
+
+There will be several inference lessons
+
+## Reading statistical reports
+
+There will be several lessons here, too.
+
+## Strength and significance
+
+Will be about distinguishing between the p-value and the effect size.
+
+Increase sample size and watch  p get smaller. But the effect size isn't getting bigger.
 
 ## Density in two variables. 
 
 Look at baby weight versus gestation, and notice a second tail to the cloud at about 30 weeks gestation and 3000 grams. Is there a gap between this tail and the upward-sloping tail. Can you think of an explanation of this second tail in terms of errors in the measurement of the length of gestation. What might lead to such a mistake? How large would it typically be?
 
-## Measuring spread
 
-Standard deviation vs range
-
-## Relationships
-
-mother and fathers age versus mother and fathers weight: which has a closer relationship?
-
-
-
-## Cases, rows, and the unit of observation
-
-
-## "Explaining" the response variable
-
-mother and father's age in Births_2015
 
 ## Inference: mean or median? range or standard deviation.
 
