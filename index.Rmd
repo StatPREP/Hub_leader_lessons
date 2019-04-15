@@ -19,11 +19,11 @@ The topics currently in the collection are
 ```{r include = FALSE}
 library(littleapp2)
 lesson_format_string <- function(base_name) {
-  glue::glue("Formats: [web](Lessons/{base_name}.html) : [pdf](Lessons/{base_name}.pdf) : [word](Lessons/{base_name}.docx) : [Rmd](Lessons/{base_name}.Rmd)")
+  glue::glue("Formats: [web](Lessons/{base_name}.html) : [pdf](Lessons/{base_name}.pdf) : [word](Lessons/{base_name}.docx) : [Rmd](Lessons/{base_name}.Rmd) : [edit](https://github.com/StatPREP/Hub_leader_lessons/edit/master/Lessons/{base_name}.Rmd)")
 }
 ```
 
-These *Topics for Stat 101* generally involve computing which is provided entirely through mouse-driven, web-based "Little Apps". Using these Little Apps requires an ordinary web browser and nothing more.
+These *Topics for Stat 101* generally involve computing. We provide the resources for this in  the form of mouse-driven, web-based "Little Apps". Using these Little Apps requires an ordinary web browser and nothing more.
 
 Each of the topics contains a number of components:
 
@@ -33,7 +33,7 @@ Each of the topics contains a number of components:
     - The conceptual pitfalls faced by students and instructors and common misconceptions frequently encounted among statistics instructors.
     - A detailed statement of learning objectives written with an eye to assessment of whether those objectives have been met.
     - The background needed by students to undertake each lesson.
-    - Tips on using the lesson to create an active classroom.
+    - Tips on using the lesson to create an active classroom. (There's also a set of [general tips to foster student engagement and activity](General/tips-for-active-classroom.Rmd))
     - Items that can be used for assessment. (NA)
     - A "pushing the envelope" section to help instructors who want deeper insight into the statistical methods, including a description in which the traditional topics have become obsolete or no longer reflect good statistical practice.
     
