@@ -1,4 +1,14 @@
-# How much is explained?
+---
+title: "How much is explained?"
+date: "StatPREP Class Lesson"
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  html_document:
+    rmdformats::material
+  pdf_document: tint::tintPdf
+---
+
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
@@ -7,7 +17,7 @@ library(DT)
 linear_app <- get_app_info("linear")
 ```
 
-## Orientation
+# Orientation
 
 The statistical work we do is built around *models*. If the word "model" reminds you of a toy plane, you're on the right track. A model is something we build in order to represent something in the real world. Usually the model is much simpler than the real-world object. 
 
@@ -19,7 +29,7 @@ Another important purpose for a model is to help us gauge *how much* of the vari
 
 That's what this lesson is about. As you'll see, we'll a statistic called R with the long-winded name "coefficient of variation."  (When you read about statistical models, you'll generally encounter the square of R, called "R-squared" and written R^2^. There's a good reason for that, but it's not important now.)
 
-## Activity
+# Activity
 
 1. The first step in finding out how much of the variation in the response variable is accounted for by the explanatory variables is, perhaps obviously, to measure how much variation there is in the response variable. Open the [`r linear_app$name`](`r linear_app$url`) Little App, choosing the `Births_2014` data frame, setting the response variable to be `age_father` and the explanatory variable to be `age_mother`. 
 

@@ -1,4 +1,14 @@
-# The two-sample t test
+---
+title: "The two-sample t test"
+date: "StatPREP Class Lesson"
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  html_document:
+    rmdformats::material
+  pdf_document: tint::tintPdf
+---
+
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
@@ -7,7 +17,7 @@ library(DT)
 t_test_app <- get_app_info("t_test")
 ```
 
-## Orientation
+# Orientation
 
 Suppose you have an explanatory variable that defines two, distinct groups, like the `home_type` variable in the `NHANES2` data. You  notice that the two groups have different mean values for the explanatory variable. 
 
@@ -21,11 +31,7 @@ Testing the Null Hypothesis by looking at the overlap, or lack of  overlap, betw
 
 This lesson introduces the t test.
 
-
-
-
-
-## Activity
+# Activity
 
 Open up the [t-test](`r t_test_app$url`) Little App.  Set the response variable to `income_poverty` and the explanatory variable to `home_type`. Set the sample size to n = 100. Check the box in the controls to show the mean values of the two groups.
 

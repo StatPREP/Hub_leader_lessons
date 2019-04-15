@@ -1,4 +1,13 @@
-# Common, uncommon, and rare
+---
+title: "Common, uncommon, and rare"
+date: "StatPREP Class Lesson"
+output:
+  html_document:
+    rmdformats::material
+  word_document:
+    reference_docx: lesson-style.docx
+  pdf_document: tint::tintPdf
+---
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
@@ -7,7 +16,7 @@ library(DT)
 rare_app <- get_app_info("rare")
 ```
 
-## Orientation
+# Orientation
 
 English has many words to describe what statistician's call *frequency*: common, unusual, rare, infrequent, uncommon, and so on. There's no precise, numerical meaning to these words; they are used to create an impression.
 
@@ -22,7 +31,7 @@ In this lesson, you are going to explore the use of the standard deviation as a 
 Since it's so long-winded to say "within 2 standard deviations of the mean," statisticians have adopted a scale called the *z-score*. In the language of the z-score, "within 2 standard deviations of the mean" is written $|\ z\ | < 2$. Similarly, "rare on  the left size of the mean" is $z < -3$.
 
 
-## Activity
+# Activity
 
 Open up the [rare-and-common](`r rare_app$url`) Little App.  Set the response variable to `height_adults` and leave the explanatory variable at `.none.`. 
 

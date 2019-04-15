@@ -1,4 +1,14 @@
-# Types of variables
+---
+title: "Types of variables"
+date: "StatPREP Class Lesson"
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  pdf_document: tint::tintPdf
+  html_document:
+    rmdformats::material
+---
+
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
@@ -6,7 +16,7 @@ library(littleapp2)
 library(DT)
 ```
 
-## Orientation
+# Orientation
 
 There are two major types of variables:
 
@@ -27,13 +37,7 @@ The levels of many categorical variables are *unordered*. This means that the co
 
 Some categorical variables are *ordinal*, which  is just to say that there is a natural order  to  the levels. An example is a variable recording "opinion," which might have levels Disagree, Neutral, Agree.
 
-
-
-INTRODUCE THE SPREAD have them measure it.
-
-
-
-## Activity
+# Activity
 
 ```{r echo = FALSE}
 point_plot_app <- get_app_info("point_plot")

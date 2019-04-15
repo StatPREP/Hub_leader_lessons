@@ -1,4 +1,13 @@
-# Parameters of the normal distribution
+---
+title: "Parameters of the normal distribution"
+date: "StatPREP Class Lesson"
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  pdf_document: tint::tintPdf
+  html_document:
+    rmdformats::material
+---
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
@@ -7,7 +16,7 @@ library(DT)
 rare_app <- get_app_info("rare")
 ```
 
-## Orientation
+# Orientation
 
 The bell-shaped distribution is often a good description of the distribution  of a variable, so often that it's called the "normal" distribution. 
 
@@ -23,7 +32,7 @@ One consequence of this is that people often can make a pretty good estimate of 
 This lesson is about learning to eyeball the mean and standard deviation from a display of the distribution. Reasons to do this include having a better understanding of the mean and standard deviation and, importantly, being able to double-check calculations in order to avoid blunders. Even with a computer, it's easy to make mistakes like reading the wrong number from a table of calculations. 
 
 
-## Activity
+# Activity
 
 Open up the [rare-and-common](`r rare_app$url`) Little App.  Set the response variable to `height_adults` and leave the explanatory variable at `.none.`. 
 
@@ -53,12 +62,6 @@ Open up the [rare-and-common](`r rare_app$url`) Little App.  Set the response va
 5. Look through the various data sets to find variables that are a good match to the normal distribution.
 
     * Comment on whether most variables have a "normal" shape.
-
-
-MOVE THIS TO THE RARE AND COMMON lesson.
-
-
-define what range of values is "common", what "uncommon", and what range is "rare." Set these as you think best. For instance, rare might be "extremely tall," uncommon might be "very tall," and similarly for extremely short and very short. Define these as makes sense to you.
 
 
 

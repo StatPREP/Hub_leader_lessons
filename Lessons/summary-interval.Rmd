@@ -1,4 +1,16 @@
-# Variation and the 95% summary interval
+---
+title: "Variation and the 95% summary interval"
+date: "StatPREP Class Lesson"
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  html_document:
+    rmdformats::material
+  pdf_document: tint::tintPdf
+---
+
+
+
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
@@ -7,7 +19,7 @@ library(DT)
 center_app <- get_app_info("spread")
 ```
 
-## Orientation
+# Orientation
 
 Why is the word *variable* used to describe a column of a data frame? In mathematics, a variable is an *unknown* quantity. In math class, when they say "solve for x," they mean figure out what the value of unknown x is. 
 
@@ -19,7 +31,7 @@ There are several ways to measure variation of a quantitative variable. The most
 
 The purpose of this lesson is to help you understand the 95% summary interval and why it is used by statisticians.
  
-## Activity
+# Activity
 
 Open up the [Center and spread](`r center_app$url`) Little App, and select the `Births_2014` data frame. Set the sample size to n = 200.
 

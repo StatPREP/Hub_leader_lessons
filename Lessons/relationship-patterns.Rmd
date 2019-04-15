@@ -1,4 +1,13 @@
-# Describing relationship patterns in words and numbers
+---
+title: "Describing relationship patterns in words and numbers"
+date: "StatPREP Class Lesson"
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  pdf_document: tint::tintPdf
+  html_document:
+    rmdformats::material
+---
 
 
 ```{r include = FALSE}
@@ -8,7 +17,7 @@ library(DT)
 linear_app <- get_app_info("linear")
 ```
 
-## Orientation
+# Orientation
 
 It's natural to display a linear regression as a graph modeling the response variable as a function of the explanatory variables. In the [`r linear_app$name`](`r linear_app$url`) Little App, that function is shown as a line laid on top of the data. 
 
@@ -22,7 +31,7 @@ The relationship shown in the [`r linear_app$name`](`r linear_app$url`) Little A
 - Which  way the line slopes? For instance, suppose the line slopes upward from left to right. The in-words description could be simply, "The regression line has a *positive slope*." Other possibilities are a *negative slope* or *no slope*. Another way to express this is with phrases like "Y goes *up* with X" (positive slope) or "Y goes *down* with  X" (negative slope) or "Y doesn't depend on X" (no slope). Of course, use the variable names instead of "Y" and "X". The response variable goes in to replace "Y" and the explanatory variable replaces "X". 
 - A more detailed description of the pattern describes *how much* Y goes up (or down) with X." For example,  "A difference in systolic pressure of 6 units corresponds to a  difference in  diastolic pressure of 10 units." 
 
-## Activity
+# Activity
 
 1. Open up the [`r linear_app$name`](`r linear_app$url`) Little App. Select `NHANES` as the data frame and systolic blood pressure as the response variable. 
 

@@ -1,4 +1,14 @@
-# Data and Point Plots
+---
+title: "Data and Point Plots"
+date: "StatPREP Class Lesson"
+always_allow_html: yes
+output:
+  html_document:
+    rmdformats::material
+  pdf_document: tint::tintPdf
+  word_document:
+    reference_docx: lesson-style.docx
+---
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
@@ -6,14 +16,14 @@ library(littleapp2)
 library(DT)
 ```
 
-## Orientation
+# Orientation
 
 Data can be many things, but one of the most common formats is a data frame, a kind of spreadsheet of rows and columns. We'll work with the data frame `Births_2014`, which is based on data  published by the US Centers for Disease Control. `Births_2014` has 100,000 rows. Each row reports a live birth in the US in 2014. There are dozens of variables, a few of which are shown below.
 
 ```{r echo = FALSE}
 set.seed(101)
 sds_table(sample_n(Births_2014, size = 10) %>%
-               select(sex, baby_wt, gestation, delivery, age_mother, wic), nrows = 100000)
+               select(sex, baby_wt, gestation, delivery, age_mother, wic), nrows = 100000, format = "pandoc")
 ```
 
 It's hard to draw much of a conclusion by looking directly at a large data frame. But a graphical display of data can help.
@@ -27,7 +37,7 @@ gf_point(baby_wt ~ gestation,
 
 ```
 
-## Exercises 
+# Activity
 
 1. Find in the graph the dot corresponding to the first row in the data table above, the one for a male baby delivered spontaneously to a 28 year-old mother.
 2. Describe the overall pattern shown in the graph as a whole. Use whatever form of description you think is appropriate.

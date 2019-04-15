@@ -1,4 +1,13 @@
-# Comparing two confidence intervals
+---
+title: "Comparing two confidence intervals"
+date: "StatPREP Class Lesson"
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  pdf_document: tint::tintPdf
+  html_document:
+    rmdformats::material
+---
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
@@ -7,7 +16,7 @@ library(DT)
 t_test_app <- get_app_info("t_test")
 ```
 
-## Orientation
+# Orientation
 
 We're continuing the story of two friends interested in how to measure poverty. You met with them at a coffee shop to show them the `NHANES` data and how to display it in the [t-test](`r t_test_app$url`) Little App. You had arranged the display to have `income_poverty` as the response variable and `home_type` as the explanatory variable. The sample size was n = 100, since that's the number of families your friends were thinking  of interviewing. You had looked at the difference in mean poverty level for the "Own" group and the "Rent" group, and how it varied from one sample to another.
 
@@ -23,7 +32,7 @@ She asked, "And comparing the result across many such samples would let us know 
 
 "No problem," you respond. Let me show you what to do.
  
-## Activity
+# Activity
 
 Open up the [t-test](`r t_test_app$url`) Little App.  Set the response variable to `income_poverty` and the explanatory variable to `home_type`. Set the sample size to n = 100. Check the box in the controls to show the mean values of the two groups.
 

@@ -1,4 +1,14 @@
-# Common shapes of distributions
+---
+title: "Common shapes of distributions"
+date: "StatPREP Class Lesson"
+output: 
+  word_document:
+    reference_docx: lesson-style.docx
+  pdf_document: tint::tintPdf
+  html_document:
+    rmdformats::material
+---
+
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
@@ -7,7 +17,7 @@ library(DT)
 center_app <- get_app_info("center")
 ```
 
-## Orientation
+# Orientation
 
 As you've probably figured out already, the columns of data frames are called *variables* because the values in the column are not all the same, that is, they vary.
 

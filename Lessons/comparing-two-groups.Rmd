@@ -1,4 +1,13 @@
-# Comparing two groups
+---
+title: "Comparing two groups"
+date: "StatPREP Class Lesson"
+output:
+  word_document:
+    reference_docx: lesson-style.docx
+  pdf_document: tint::tintPdf
+  html_document:
+    rmdformats::material
+---
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
@@ -7,7 +16,7 @@ library(DT)
 t_test_app <- get_app_info("t_test")
 ```
 
-## Orientation
+# Orientation
 
 A friend and I were discussing ways to measure poverty. Of course,  there's the so-called "poverty level" of income defined by the US government. But we were interested in whether it might be worthwhile to do a detailed interview with, say, 100 families, quantifying how much trouble they have paying  for different things: food, housing, healthcare, transportation, emergencies etc. Then we'd look at easy things to measure so that we could have an index for these different things, food stress, housing stress, and so on.
 
@@ -17,7 +26,7 @@ We know that you're taking a statistics course, so we arranged to visit with you
 
 We arranged to meet you in a local coffee shop, which has free internet.
  
-## Activity
+# Activity
 
 When we got to the coffee shop, you opened up a statistics app, called the  [t-test](`r t_test_app$url`) Little App. You set the app to work with  the `NHANES2` data. You explained that there is a lot of  data, but maybe it would be good to start with a sample of 100, so that we would get an idea of what things might work in our planned interviews of 100 families.
 

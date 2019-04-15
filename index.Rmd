@@ -2,8 +2,11 @@
 title: "Topics for Stat 101"
 output: 
   html_document:
-    theme: readable
+    rmdformats::material
+  pdf_document: tint::tintPdf
 ---
+
+# Overview
 
 *Stat 101* is one name for the conventional introductory statistics course. This site contains lessons for teaching topics generally found in Stat 101, but rooting them in real data. 
 
@@ -46,7 +49,7 @@ Each of the topics contains a number of components:
 The Little Apps can be used with or without the lessons. The Apps are designed to use data to present broad statistical concepts, including descriptive statistics, modeling, statistical inference, and hypothesis tests. The interactive format allows students to explore many data sets and many variables within each data set. The data have been selected from published sources and provide many real settings for informative statistical investigation. The Apps allow students to work with multiple variables and generally provide facilities for working with covariates. 
 
 
-## Data and variables 
+# Data and variables 
 
 [Instructor guide](???) Not yet available
 
@@ -58,7 +61,7 @@ Applicable lessons:
 #. Response and explanatory variables`r lesson_format_string("response-and-explanatory")`
 
 
-## Center and spread
+# Center and spread
 
 [Instructor guide](center-spread/instructions-center-spread.Rmd)
 
@@ -72,9 +75,9 @@ Applicable lessons:
 
 
 
-## Proportions *not yet*
+# Proportions 
 
-[Instructor guide]()
+[Instructor guide]() *not yet*
 
 Applicable lessons:
 
@@ -82,7 +85,7 @@ Applicable lessons:
 
 Note, will be based on proportions app.
 
-## t-test
+# t-test
 
 [Instructor guide](two-sample-t-test/instructions-two-sample-t-test.Rmd)
 
@@ -92,7 +95,7 @@ Applicable lessons:
 #. Comparing confidence intervals. `r lesson_format_string("comparing-confidence-intervals")`
 #. Two-sample t-test. `r lesson_format_string("two-sample-t-test")`
 
-## Normal distribution
+# Normal distribution
 
 [Instructor guide](normal-distribution/instructions-normal-distribution.Rmd)
 
@@ -103,7 +106,7 @@ Applicable lessons:
 #. Common and rare. `r lesson_format_string("common-and-rare")`
 #. Distribution shapes. `r lesson_format_string("distribution-shapes")`
 
-## Linear regression
+# Linear regression
 
 [Instructor guide](linear-regression/instructions-linear-regression.Rmd)
 
@@ -112,7 +115,7 @@ Applicable lessons:
 #. Describing linear relationships. `r lesson_format_string("relationship-patterns")`
 #. How much variation is accounted for? `r lesson_format_string("how-much-is-explained")`
 
-## Modeling 
+# Modeling 
 
 [Instructor guide]() not yet available
 

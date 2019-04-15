@@ -1,7 +1,5 @@
 ---
 title: "Tips for an active classroom"
-author: "Danny Kaplan"
-date: "Version 0.5 `r  Sys.Date()`"
 output: 
   html_document:
     theme: readable
@@ -97,4 +95,8 @@ Many activities have students calculate or eyeball a value.
 
 * Students write result on a Post-It. Stick them to the board to make a distribution, e.g. a histogram- or dot-plot like  configuration.
 
- 
+-------------
+
+Authors:  Danny Kaplan & ...
+
+Version 0.5 `r  Sys.Date()`

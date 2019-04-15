@@ -1,10 +1,4 @@
 base
-methods
-datasets
-utils
-grDevices
-graphics
-stats
 magrittr
 SDSdata
 MASS
@@ -18,7 +12,6 @@ mosaicData
 Matrix
 mosaic
 mosaicCore
-splines
 mosaicModel
 NHANES
 DiagrammeR
@@ -32,3 +25,4 @@ kernlab
 tibble
 tidyr
 DT
+littleapp2
