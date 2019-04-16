@@ -35,16 +35,15 @@ Each of the topics contains a number of components:
     - A description of how the method fits in with statistical practice.
     - The conceptual pitfalls faced by students and instructors and common misconceptions frequently encounted among statistics instructors.
     - A detailed statement of learning objectives written with an eye to assessment of whether those objectives have been met.
-    - The background needed by students to undertake each lesson.
-    - Tips on using the lesson to create an active classroom. (There's also a set of [general tips to foster student engagement and activity](General/tips-for-active-classroom.Rmd))
-    - Items that can be used for assessment. (NA)
-    - A "pushing the envelope" section to help instructors who want deeper insight into the statistical methods, including a description in which the traditional topics have become obsolete or no longer reflect good statistical practice.
+    - The background needed by students to undertake each topic. Links to appropriate lessons are included.
+    - Tips on using the lessons to create an active classroom. (There's also a set of [general tips to foster student engagement and activity](General/tips-for-active-classroom.Rmd))
+    - Items that can be used for assessment. 
+    - A "pushing the envelope" section to help instructors who want deeper insight into the statistical methods, including a description in which the traditional topics have become obsolete or no longer reflect good statistical practice. [NOTE IN DRAFT:  How does this differ  from misconceptions?]
     
 
 2. Student facing
     - Individual lesson documents illuminating varied aspects of or approaches to the topic. Many of these are best used as in-class, small-group activities, but they can also be used  the basis for class lectures. The documents can be customized, extended, or simplified by the instructor.
     - The Little Apps around which most of the lessons have been written, but which are flexible enough to support free exploration of statistical topics either led by the instructor or self-guided by the student.
-
 
 The Little Apps can be used with or without the lessons. The Apps are designed to use data to present broad statistical concepts, including descriptive statistics, modeling, statistical inference, and hypothesis tests. The interactive format allows students to explore many data sets and many variables within each data set. The data have been selected from published sources and provide many real settings for informative statistical investigation. The Apps allow students to work with multiple variables and generally provide facilities for working with covariates. 
 
@@ -52,6 +51,9 @@ The Little Apps can be used with or without the lessons. The Apps are designed t
 # Data and variables 
 
 [Instructor guide](???) Not yet available
+
+#. The codebook
+
 
 Applicable lessons:
 

@@ -1,5 +1,5 @@
 ---
-title: "StatPREP Lesson Lessons"
+title: "StatPREP Lessons"
 output: 
   html_document:
     theme: readable
@@ -12,7 +12,7 @@ module_format_string <- function(base_name) {
 }
 ```
 
-## Point Plot
+## Point Plots 
 
 ```{r echo = FALSE}
 point_plot_app <- get_app_info("point_plot")
@@ -87,7 +87,7 @@ File: `r module_format_string("commmon-and-rare")`
 
 Using the z-score to express concepts of "common" and "rare."
 
-## Response and explanatory variables
+## Response and explanatory variables {#response_explanatory}
 
 App: Several. Links are in the lesson.
 
@@ -95,7 +95,7 @@ File: `r module_format_string("response-and-explanatory")`
 
 Reasons to identify one variable as the response and another as the explanatory.
 
-## Comparing means --  Part I
+## Comparing means --  Part I {#means_i}
  
 App: [`r t_test_app$name`](`r t_test_app$url`)
 
@@ -104,7 +104,7 @@ File: `r module_format_string("comparing-two-groups")`
 
 Looking at sampling variation with new samples.
 
-## Comparing means --  Part II
+## Comparing means --  Part II {#means_ii}
 
 App: [`r t_test_app$name`](`r t_test_app$url`)
 
@@ -113,7 +113,7 @@ File: `r module_format_string("comparing-confidence-intervals")`
 
 Comparing the two confidence intervals
 
-## Comparing means --  Part III
+## Comparing means --  Part III {#means_iii}
 
 App: [`r t_test_app$name`](`r t_test_app$url`)
 
@@ -121,7 +121,7 @@ File: `r module_format_string("Two-sample-t-test")`
 
 Using the t-statistic
 
-## Describing relationship patterns in words and numbers
+## Describing relationship patterns in words and numbers {#relationship_patterns}
 
 App: [`r regression_app$name`](`r regression_app$url`)
 
@@ -137,8 +137,6 @@ File: `r module_format_string("how-much-is-explained")`
 
 Introduces the concept of quantifying how much of one variable is accounted for (or "explained") by another.
 
-AND FIGURE OUT WHERE YOU WERE GOING WITH "lesson-2.Rmd"
-
 ## Covariates
 
 This will be about how introducing a covarate can change the estimate of the effect size.
@@ -150,6 +148,16 @@ There will be several inference lessons
 ## Reading statistical reports
 
 There will be several lessons here, too.
+
+## Flexibility
+
+This will  be about adding nonlinear terms to models.
+
+- With the app: Nonlinear functions -- when we need them and when we don't. Do they add something to the explanation.
+
+- With  the app: sample size and significance. Look at how $R^2$ changes as we add in  explanatory variables and nonlinearity.
+    - it never goes down, usually  up.
+    - it might change by a trivial amount: what can you say  about the difference between a 10th percentile case and a 90th percentile case? 25th  and 75th (which is the middle of the bottom half and of the top half).
 
 ## Strength and significance
 
