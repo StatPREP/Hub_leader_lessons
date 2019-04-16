@@ -95,6 +95,23 @@ Many activities have students calculate or eyeball a value.
 
 * Students write result on a Post-It. Stick them to the board to make a distribution, e.g. a histogram- or dot-plot like  configuration.
 
+# Don't forget the data!
+
+One of the greatest opportunities to create student engagement comes from the setting and applicability of the data. Describe the data set you are using and the meaning of important variables. Encourage students to look for interesting explanatory variables, or to choose a response variable that is of meaning to them. 
+
+To illustrate, consider the data from the National Health and  Nutrition Evaluation Survey (NHANES) that is one of the set available throughout the Little App series. Some examples of opportunities for engagement ...
+
+- Have students do a web search on NHANES to understand what it is.
+- Review some of the variables included in the `NHANES` data frame. You can do this *within* the Little App by going to the "codebook" tab in the app. 
+Before starting the lessons, make sure the students understand what the  "unit of observation" is (an individual person surveyed as part of the NHANES project) and any variables that will be used: 
+    - `HomeOwn` - whether the person owns or rents the home they live in. (Possible questions: Across the US,  what fraction  of households own their home?)
+    - `Poverty` - the *income* of the person's family, stated as a multiple of the government's official poverty level. (Possible questions to ask students: What is the current "poverty level?" How poor would a family be that is at the poverty level? At twice the poverty level? For what government services is the poverty level used as a eligibility qualification?)
+
+You might decide to use other data, but the same principles apply of understanding how the data are organized and what the variables stand for. 
+
+
+
+
 -------------
 
 Authors:  Danny Kaplan & ...

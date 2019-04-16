@@ -1,20 +1,14 @@
 ---
-title: "From Center & spread to variation and prediction"
-author: "Carol Howald"
-date: "version 0.2 `r Sys.Date()`"
+title: "Center & spread"
+author: "Joseph Roith"
+date: "version 0.3 `r Sys.Date()`"
 output:
+  html_document:
+    rmdformats::material
   rmarkdown::word_document: 
   tufte::tufte_handout:
     citation_package: natbib
     latex_engine: xelatex
-  tufte::tufte_html: default
-  tufte::tufte_book:
-    citation_package: natbib
-    latex_engine: xelatex
-    includes:
-      in_header: header.tex
-bibliography: skeleton.bib
-link-citations: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -24,7 +18,7 @@ knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
 options(htmltools.dir.version = FALSE)
 ```
 
-## Orientation for instructors
+# Orientation for instructors
 
 Early in most introductory statistics courses, students are taught ways to describe quantitative variables. As regards numerical descriptions, the mean and standard deviation are "normal."  (Pun intended.) The median and interquartile range offer an alternative when the variable is "skew." The means and/or median are described as "representative" or "typical" values. The standard deviation  describes how far "typical" values are from the mean, that is, how much "typical" values are spread out.
 
