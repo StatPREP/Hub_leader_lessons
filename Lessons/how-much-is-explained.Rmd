@@ -12,7 +12,7 @@ output:
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
-library(littleapp2)
+library(LittleApp)
 library(DT)
 linear_app <- get_app_info("linear")
 ```

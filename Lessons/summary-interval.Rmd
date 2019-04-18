@@ -14,7 +14,7 @@ output:
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
-library(littleapp2)
+library(LittleApp)
 library(DT)
 center_app <- get_app_info("spread")
 ```

@@ -12,10 +12,10 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-library(littleapp2)
+library(LittleApp)
 ```
 
-# Introduction 
+# Orientation for instructors
 
 The two-sample t-test is a staple of introductory statistics. In many courses, it is the most advanced topic taught. In others, it is followed by linear regression and/or ANOVA. At Howard Community College, the t-test is taught in the last 2 weeks of our course. 
 

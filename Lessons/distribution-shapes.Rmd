@@ -12,7 +12,7 @@ output:
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
-library(littleapp2)
+library(LittleApp)
 library(DT)
 center_app <- get_app_info("center")
 ```
@@ -46,7 +46,7 @@ Points <- tibble::tribble(
     1.225, 86,
     1.225, 58
 )
-gf_jitter(pulse ~ 1, data = littleapp2::NHANES2, width = 0.15,
+gf_jitter(pulse ~ 1, data = LittleApp::NHANES2, width = 0.15,
           alpha = 0.05) %>%
     gf_violin(alpha = 0.5, fill = "blue", color = "blue") %>%
     gf_vline(xintercept = c(1, 1.225, 1.45), color = "red") %>%

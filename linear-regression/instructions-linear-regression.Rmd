@@ -20,7 +20,7 @@ output:
 ```{r setup, include=FALSE}
 library(tufte)
 # invalidate cache when the tufte version changes
-library(littleapp2)
+library(LittleApp)
 knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
 options(htmltools.dir.version = FALSE)
 ```

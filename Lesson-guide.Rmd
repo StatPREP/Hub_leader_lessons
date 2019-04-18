@@ -6,7 +6,7 @@ output:
 ---
 
 ```{r include = FALSE}
-library(littleapp2)
+library(LittleApp)
 module_format_string <- function(base_name) {
   glue::glue("[web format](Lessons/{base_name}.html) : [pdf format](Lessons/{base_name}.pdf) : [word format](Lessons/{base_name}.docx) : [Rmd format](Lessons/{base_name}.Rmd)")
 }

@@ -2,7 +2,7 @@
 
 ```{r include = FALSE}
 SDSdata::sds_setup()
-library(littleapp2)
+library(LittleApp)
 library(DT)
 point_app <- get_app_info("point")
 ```

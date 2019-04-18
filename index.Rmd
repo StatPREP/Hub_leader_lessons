@@ -20,7 +20,7 @@ The topics currently in the collection are
 #. linear regression
 
 ```{r include = FALSE}
-library(littleapp2)
+library(LittleApp)
 lesson_format_string <- function(base_name) {
   glue::glue("Formats: [web](Lessons/{base_name}.html) : [pdf](Lessons/{base_name}.pdf) : [word](Lessons/{base_name}.docx) : [Rmd](Lessons/{base_name}.Rmd) : [edit](https://github.com/StatPREP/Hub_leader_lessons/edit/master/Lessons/{base_name}.Rmd)")
 }
